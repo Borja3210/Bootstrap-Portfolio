@@ -3,17 +3,19 @@
 
   body {
     background: black;
-    font-family: "Baloo Tamma 2", cursive;
+    font-family: "lato", sans-serif;
     margin: 0;
     padding: 0;
   }
   
   /* Main Heading Font */
   .m-heading {
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", sans-serif;
   }
   
   /* Navigation */
+
+   
   
   .navi-link:hover {
     color: #e34399 !important;
@@ -49,13 +51,11 @@
     width: auto;
     height: 100vh;
     border-radius: 15%;
-    border: 1px solid rgba(255, 255, 255, 0);
-    opacity: 0.82; 
-  }
+    }
 
   .m-heading:hover{
 
-    text-decoration: #e34399 !important;
+    text-decoration: none;
     color: #e34399 !important;
     transition: 0.5s ease;
 
@@ -90,8 +90,16 @@
     max-width: 15rem;
     margin-left: 1rem;
     border: 2px solid #d3ff87;
-    border-radius: 0.5rem;
-    
+    border-radius: 0.5rem;  
+  }
+
+  .media_link :hover{
+    text-decoration: #e34399 !important;
+    color: #e34399 !important;
+    transition: 0.5s ease;
   }
  
-  
+  footer{
+      background-color: #3f3e45;
+      height: 15vh;
+  }
