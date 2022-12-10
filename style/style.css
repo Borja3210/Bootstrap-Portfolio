@@ -1,31 +1,97 @@
-*{
+/* Global Properties */
+
+
+  body {
+    background: black;
+    font-family: "Baloo Tamma 2", cursive;
     margin: 0;
-}
+    padding: 0;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /* Navigation */
+  
+  .navi-link:hover {
+    color: #e34399 !important;
+    text-decoration: none;
+    border-bottom: 2px solid #e34399;
+    transition: 0.5s ease;
+  }
 
+  .colornv{
+      color: #d3ff87 !important;
+  }
+  
+  /* Main Container height*/
+  .main-container {
+    height: 100vh;
+  }
+  
+  /* Aligning items in main row */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Changing Name Font sixe */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* Making the main image the size of the screen */
+  .main_row img {
 
+    width: auto;
+    height: 100vh;
+    border-radius: 15%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    opacity: 0.82; 
+  }
 
-.jumbotron{
-    height: 54vw;
-}
+  .m-heading:hover{
 
-.jumbotron{
-    background-image: url("https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2607&q=80");
-    background-size: cover;
-    color: rgb(189, 220, 252);
+    text-decoration: #e34399 !important;
+    color: #e34399 !important;
+    transition: 0.5s ease;
 
-}
+  }
 
+  
+  /* About Section */
+  .about {
+    background: #3f3e45;
+    border-radius: 0.5rem;
+  }
+  
+  .card {
+    border-bottom: 8px solid #d3ff87;
+  }
+  
+  /* Social Media Section */
+  #social-media {
 
-.container{
-    width: 80%;
+    background: #3f3e45;
+
+  }
+
+  .buttontext{
+      color: white !important;
+  }
+
+  
+  /* Add color to Social Media Links */
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #d3ff87;
+    border-radius: 0.5rem;
     
-}
-
-.cardContainer{
-    height: 300px;
-    
-}
-
-.MyPicture{
-    border-radius: 8%;
-}
+  }
+ 
+  
