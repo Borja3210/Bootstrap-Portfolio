@@ -32,11 +32,15 @@
   .navbar-brand{
 
     color: #d3ff87 !important;
+
+    cursor: pointer;
   }
 
   .nav-link{
 
     color: #d3ff87 !important;
+
+    cursor: pointer;
   }
 
    
@@ -56,11 +60,29 @@
       color: #d3ff87 !important;
   }
   
-  /* Main Container height*/
+  /* Jumbotron*/
 
   .main-container {
 
     height: 100vh;
+  }
+
+  .jumbotron{
+      background-image:url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1720&q=80");
+      background-size: cover;
+      height: 100vh;
+  }
+
+  .display-4{
+      font-weight: 600;
+      color: #d3ff87 !important;
+  }
+
+  h1{
+      color: #ffff;
+      font-weight: 800 !important;
+      font-size: 5rem !important;
+
   }
   
   /* Aligning items in main row */
@@ -90,6 +112,10 @@
     border-radius: 15%;
     }
 
+    h1{
+        cursor: pointer;
+    }
+
   h1:hover{
 
     text-decoration: none;
@@ -116,18 +142,45 @@
 
     border-bottom: 8px solid #d3ff87;
 
+    border-top: 8px solid #d3ff87;
+
     width: 18rem;
+
+    border-radius: 5%;
+
+    cursor: pointer;
 
     
   }
 
   .card-body{
 
-      color: white !important;
+    color: white !important;
 
-      background: #3f3e45 !important;
+    background: #3f3e45 !important;
 
       
+  }
+
+  .card:hover{
+    width:20rem;
+    height:105%;
+    box-shadow:  10px 10px 16px #d3ff87;
+  }
+
+  .card-title:hover{
+
+    text-decoration: none;
+
+    color: #e34399 !important;
+
+    transition: 0.5;
+
+
+  }
+
+  .shiny:hover{
+      color: #e34399 !important;
   }
   
  
@@ -136,37 +189,40 @@
   /* Social Media Section */
   
 
-  .buttontext{
-
-      color: white !important;
-  }
-
-  
-  /* Add color to Social Media Links */
-
-  
-
-  .media_link {
-
-    padding: 1rem;
-
-    max-width: 15rem;
-
-    margin-left: 1rem;
-
-    border: 2px solid #d3ff87;
-
-    border-radius: 0.5rem;  
-  }
-
-  .media_link :hover{
-
-    text-decoration: #e34399 !important;
+  .boton:hover{
 
     color: #e34399 !important;
-
-    transition: 0.5s ease;
+    box-shadow: 10px 10px 16px #e34399 !important;
+    transition: 0.3 ease ;
   }
+
+  .boton{
+
+      color: white !important;
+
+      border: 2px solid #d3ff87;
+
+      border-radius: 3%;
+
+      padding:  1rem 2rem !important;
+
+      background-color: #3f3e45;
+
+  }
+
+  a{
+      text-decoration: none !important;
+      color: white;
+  }
+
+  a:hover{
+      color: #e34399 !important;
+      transition: 0.3;
+  }
+
+ 
+
+  
  
   footer{
 
@@ -174,6 +230,14 @@
 
       height: 15vh;
   }
+
+  footer:hover{
+      color: #e34399;
+  }
+
+  
+
+  
 
    @media (max-width: 320px) { 
     
