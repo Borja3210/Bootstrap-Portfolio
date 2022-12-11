@@ -3,25 +3,53 @@
 
   body {
     background: black;
+
     font-family: "lato", sans-serif;
+
     margin: 0;
+
     padding: 0;
   }
   
   /* Main Heading Font */
   .m-heading {
+
     font-family: "Roboto", sans-serif;
   }
   
   /* Navigation */
 
+  .navbar-nav{
+
+    margin-left: auto !important;
+  }
+
+  .navbar-toggler-icon{
+
+    color: #d3ff87 !important;
+  }
+
+  .navbar-brand{
+
+    color: #d3ff87 !important;
+  }
+
+  .nav-link{
+
+    color: #d3ff87 !important;
+  }
+
    
   
-  .navi-link:hover {
+  .nav-link:hover {  
+
     color: #e34399 !important;
+
     text-decoration: none;
+
     border-bottom: 2px solid #e34399;
-    transition: 0.5s ease;
+
+    transition: 0.5s;
   }
 
   .colornv{
@@ -29,19 +57,26 @@
   }
   
   /* Main Container height*/
+
   .main-container {
+
     height: 100vh;
   }
   
   /* Aligning items in main row */
+
   .main_row {
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
   }
   
   /* Changing Name Font sixe */
   .main_row h1 {
+
     font-size: 5rem;
   }
   
@@ -49,58 +84,99 @@
   .main_row img {
 
     width: auto;
+
     height: 100vh;
+
     border-radius: 15%;
     }
 
-  .m-heading:hover{
+  h1:hover{
 
     text-decoration: none;
+
     color: #e34399 !important;
-    transition: 0.5s ease;
+
+    transition: 0.5;
 
   }
 
   
-  /* About Section */
+  /* About cards */
+
   .about {
+
     background: #3f3e45;
+
     border-radius: 0.5rem;
   }
   
   .card {
+
+    border-color: #3f3e45;
+
     border-bottom: 8px solid #d3ff87;
+
+    width: 18rem;
+
+    
+  }
+
+  .card-body{
+
+      color: white !important;
+
+      background: #3f3e45 !important;
+
+      
   }
   
+ 
+
+  
   /* Social Media Section */
-  #social-media {
-
-    background: #3f3e45;
-
-  }
+  
 
   .buttontext{
+
       color: white !important;
   }
 
   
   /* Add color to Social Media Links */
+
   
+
   .media_link {
+
     padding: 1rem;
+
     max-width: 15rem;
+
     margin-left: 1rem;
+
     border: 2px solid #d3ff87;
+
     border-radius: 0.5rem;  
   }
 
   .media_link :hover{
+
     text-decoration: #e34399 !important;
+
     color: #e34399 !important;
+
     transition: 0.5s ease;
   }
  
   footer{
+
       background-color: #3f3e45;
+
       height: 15vh;
+  }
+
+   @media (max-width: 320px) { 
+    
+    *{margin: 0%;}
+    
   }
