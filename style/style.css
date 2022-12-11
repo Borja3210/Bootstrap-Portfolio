@@ -192,7 +192,7 @@
   .boton:hover{
 
     color: #e34399 !important;
-    box-shadow: 10px 10px 16px #e34399 !important;
+    box-shadow: 10px 10px 16px #d3ff87 !important;
     transition: 0.3 ease ;
   }
 
@@ -231,8 +231,8 @@
       height: 15vh;
   }
 
-  footer:hover{
-      color: #e34399;
+  .footprint:hover{
+      color: #e34399 !important;
   }
 
   
