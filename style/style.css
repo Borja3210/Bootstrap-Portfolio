@@ -232,7 +232,6 @@ footer{
 
  @media (max-width: 768px) { 
     
-<<<<<<< HEAD
   
   .contact{
       display: flex !important;
@@ -242,9 +241,4 @@ footer{
       min-width: 60% !important;
   }
   
-  
 }
-=======
-    
-  }
->>>>>>> e6c550f4156134116317f56b2d64362f984b7d69
