@@ -24,7 +24,9 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="style/images/rocket_launch_FILL0_wght400_GRAD0_opsz48.png">
@@ -34,12 +36,12 @@
     <!-- Web title -->
 
     <title>Borja Web Dev</title>
-    
+
 
 </head>
 
 <body>
-     
+
     <!-- Navbar menu -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-darkt">
@@ -50,77 +52,85 @@
 
             <span class="navbar-toggler-icon"></span>
 
-          </button>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
 
-          <ul class="navbar-nav">
+            <ul class="navbar-nav">
 
-            <li class="nav-item active">
+                <li class="nav-item active">
 
-              <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
-            </li>
+                    <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-              <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about">About</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-              <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-             <a class="nav-link" href="style/images/CV2022-1.png" target="blank">Resume</a>
+                    <a class="nav-link" href="style/images/CV2022-1.png" target="blank">Resume</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-             <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
 
-            </li>
+                </li>
 
-          </ul>
+            </ul>
 
         </div>
 
-      </nav>
+    </nav>
 
     <!-- Jumbotron -->
 
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h2 class="display-4">Hi! This is</h2>
-          <h1 class="lead">Borja Muñoz</h1>
-          <h2 class="display-4">your web developer</h2>
-        </div>
-      </div>
 
-    
+        <div class=" container d-flex flex-column justify-content-end">
+
+            <h2 class="display-4 text-center">Hi! This is</h2>
+
+            <h1 class="lead justify-content-center text-center">Borja Muñoz</h1>
+
+            <h2 class="display-4 justify-content-center text-center">your web developer</h2>
+
+        </div>
+
+    </div>
+
+
 
     <!-- About Section -->
 
     <div id="about" class="container about p-5 ">
 
-        <div class="row">
+        <div class="row aboutSecondlevel ">
 
-            <div class="col-6 col-md-6">
+            <div class="col-6 col-md-6 aboutThirdlevel">
 
-                <img src="style/images/borja5.png" class="img-fluid" />
+                <img src="style/images/borja5.png" class="fotocard img-fluid mx-auto d-block" />
 
             </div>
 
-            <div class="col-12 col-md-6 pl-5 pt-5 pb-5 text-white">
+            <div class=" myself col-12 col-md-6 pl-5 pt-5 pb-5 text-white">
 
                 <h1 class="m-heading colornv">Who am I?</h1>
 
                 <p> I'm Borja, a passionate student bringing you programming and design from the future. I am learning
+
                     front end development including languages as <b class="colornv">HTML, CSS, JS and frameworks like
+
                         Bootstrap or React</b> , also I got some knowledge in UX design.</p>
 
                 <br />
@@ -128,7 +138,10 @@
                 <p>If you want to contact me to learn about my services, dont hesitate to contact me on <b
                         class="colornv">borja3210@gmail.com</b> </p>
 
-                <h5 class="colornv">Knowledge in:</h5>
+                <details>
+
+               <summary> <h5 class="colornv">Knowledge in:</h5>
+               <p>Please press the little triangle above</p> </summary>
 
                 <ul class="colornv">
 
@@ -154,6 +167,7 @@
 
                 </ul>
 
+            </details>
             </div>
 
         </div>
@@ -164,139 +178,233 @@
 
     <div id="projects" class="container mt-5 pt-5">
 
-        <h1 class="colornv mb-3 pb-5">My Work</h1>
+        <h1 class="colornv text-center pb-5">My Work</h1>
 
         <div class="row">
 
             <div class="col-12 col-md-6  col-lg-4 mb-5 justify-content-end">
 
-                <div class="card" ">
+                <div class="card mx-auto">
 
-                    <img src="style/images/foto1.png" class="card-img-top"  alt="First project" />
+                    <img src=" style/images/foto1.png" class="card-img-top" alt="First project" />
 
-                    <div class="card-body">
+                <div class="card-body">
 
-                        <h5 class="card-title">First Project</h5>
+                    <h5 class="card-title">First Project</h5>
 
-                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!</p>
-                        
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white  shiny"> <h5>See Project</h5></a>
+                    <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi
 
-                    </div>
+                        nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius
 
-                </div>
+                        voluptates hic, dolore illum quo quas earum!</p>
 
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white  shiny">
 
-                <div class="card">
-
-                    <img src="style/images/foto5.png" class="card-img-top img-fluid" alt="First project"/>
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">Second Project</h5>
-
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!</p>
-                        
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny"><h5>See Project</h5></a>
-
-                    </div>
+                        <h5>See Project</h5>
+                    </a>
 
                 </div>
 
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
+        </div>
 
-                <div class="card">
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
 
-                    <img src="style/images/foto2.png" class="card-img-top" alt="Second project"/>
+            <div class="card mx-auto">
 
-                    <div class="card-body">
+                <img src="style/images/foto5.png" class="card-img-top img-fluid" alt="First project" />
 
-                        <h5 class="card-title">Third Project</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny"><h5>See Project</h5></a>
-                    </div>
+                <div class="card-body">
+
+                    <h5 class="card-title">Second Project</h5>
+
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi
+
+                        nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius
+
+                        voluptates hic, dolore illum quo quas earum!</p>
+
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny">
+
+                        <h5>See Project</h5>
+                    </a>
+
                 </div>
+
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <img src="style/images/foto3.png" class="card-img-top" alt="Third project"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Fourth Project</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny"><h5>See Project</h5></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <img src="style/images/foto4.png" class="card-img-top" alt="Fourth project"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Fifth Project</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny"><h5>See Project</h5></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card">
-                    <img src="style/images/foto5.png" class="card-img-top" alt="fifth project"/>
-                    <div class="card-body">
-                        <h5 class="card-title">sixth Project</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam, porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore illum quo quas earum!
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny"><h5>See Project</h5></a>
-                    </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+            <div class="card mx-auto">
+
+                <img src="style/images/foto2.png" class="card-img-top" alt="Second project" />
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Third Project</h5>
+
+                    <p class="card-text">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam,
+
+                        porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore
+
+                        illum quo quas earum!
+
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny">
+
+                        <h5>See Project</h5>
+                    </a>
                 </div>
             </div>
         </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+            <div class=" card mx-auto">
+
+                <img src="style/images/foto3.png" class="card-img-top" alt="Third project" />
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Fourth Project</h5>
+
+                    <p class="card-text">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam,
+
+                        porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore
+
+                        illum quo quas earum!
+                   
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny">
+
+                        <h5>See Project</h5>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+            <div class="card mx-auto">
+
+                <img src="style/images/foto4.png" class="card-img-top" alt="Fourth project" />
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Fifth Project</h5>
+
+                    <p class="card-text">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam,
+
+                        porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore
+
+                        illum quo quas earum!
+                    
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny">
+
+                        <h5>See Project</h5>
+                    
+                    </a>
+
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+
+            <div class="card mx-auto">
+
+                <img src="style/images/foto5.png" class="card-img-top" alt="fifth project" />
+
+                <div class="card-body">
+
+                    <h5 class="card-title">sixth Project</h5>
+
+                    <p class="card-text">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae illo nisi nostrum ullam ipsam,
+
+                        porro maxime autem similique atque, dicta reprehenderit incidunt eius voluptates hic, dolore
+
+                        illum quo quas earum!
+                    
+                    </p>
+
+                    <a href="https://www.youtube.com/watch?v=jKF3H-qdmWU" class="text-white shiny">
+
+                        <h5>See Project</h5>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
     </div>
 
     <!-- Social Media Section -->
-    
 
-    
+    <div id="contact" class="container  justify-content-center">
 
-
-    <div  id="contact" class="container  justify-content-center"> 
         <div class="container text-white py-5">
-            <h4 class="colornv pb-3">Social Media</h4>
-            <h1 class="m-heading">Contact Me</h1>
+
+            <h4 class="colornv pb-3 text-center">Social Media</h4>
+
+            <h1 class="m-heading text-center">Contact Me</h1>
+
             <div class="row superButton  pt-5">
 
-                <div id=contact class="container contact  mt-5 justify-content-center">
+                <div id=contact class="container contact  mt-5 d-flex justify-content-center">
 
-    <button type="button" class="btn col-12  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4 ml-2 mr-5 mb-5 justify-content-center"><a href="mailto:borja3210@gmail.com">Email</a></button>
+                    <button type="button" class="social btn col-3  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4 mb-5  mx-auto "> <a href="mailto:borja3210@gmail.com">Email</a></button>
 
-    <button type="button" class="btn col-12  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4 ml-2 mr-5 mb-5 justify-content-center"><a href="https://www.instagram.com">Instagram</a></button>
+                    <button type="button" class="social btn col-3  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4  mb-5  mx-auto"> <a href="https://www.instagram.com">Instagram</a></button>
 
-    <button type="button" class="btn  col-12  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4  ml-2 mr-5 mb-5 justify-content-center"><a href="https://www.linkedin.com">LikedIn</a></button>
-    
-    
+                    <button type="button" class="social btn  col-3  col-xl-3 boton btn-lg colornv pl-3 pr-3 pt-4 mb-5  mx-auto"> <a href="https://www.linkedin.com">LikedIn</a></button>
 
-    </div>
-               
+
+
+                </div>
+
             </div>
+
         </div>
+        
     </div>
--->
+
     <!-- Footer -->
     <footer>
 
         <div class="container-fluid text-muted text-center py-3 mt-5">
 
-           <a class="footprint" href="mailto:borja3210@gmail.com"> <h5 class=" footprint colornv"> Borja Muñoz Development</h5> </a> 
+            <a class="footprint" href="mailto:borja3210@gmail.com">
+                
+                <h5 class=" footprint colornv"> Borja Muñoz Development</h5>
+            
+            </a>
+
         </div>
 
     </footer>
