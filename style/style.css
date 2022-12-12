@@ -1,240 +1,245 @@
 /* Global Properties */
 
+body {
+  background: black;
 
-  body {
-    background: black;
+  font-family: "lato", sans-serif;
 
-    font-family: "lato", sans-serif;
+  margin: 0px;
 
-    margin: 0px;
+  padding: 0px;
+}
 
-    padding: 0px;
-  }
-  
-  /* Main Heading Font */
-  .m-heading {
+/* Main Heading Font */
+.m-heading {
 
-    font-family: "Roboto", sans-serif;
-  }
-  
-  /* Navigation */
+  font-family: "Roboto", sans-serif;
+}
 
-  .navbar-nav{
+/* Navigation */
 
-    margin-left: auto !important;
-  }
+.navbar-nav{
 
-  .navbar-toggler-icon{
+  margin-left: auto !important;
+}
 
-    color: #d3ff87 !important;
-  }
+.navbar-toggler-icon{
 
-  .navbar-brand{
+  color: #d3ff87 !important;
+}
 
-    color: #d3ff87 !important;
+.navbar-brand{
 
-    cursor: pointer;
-  }
+  color: #d3ff87 !important;
 
-  .nav-link{
+  cursor: pointer;
+}
 
-    color: #d3ff87 !important;
+.nav-link{
 
-    cursor: pointer;
-  }
+  color: #d3ff87 !important;
 
-   
-  
-  .nav-link:hover {  
-
-    color: #e34399 !important;
-
-    text-decoration: none;
-
-    border-bottom: 2px solid #e34399;
-
-    transition: 0.5s;
-  }
-
-  .colornv{
-      color: #d3ff87 !important;
-  }
-  
-  /* Jumbotron*/
-
-  .jumbotron{
-      background-image:url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1720&q=80");
-      background-size: cover;
-      height: 100vh;
-      margin-bottom: 7rem;
-  }
-
-  .display-4{
-      font-weight: 600;
-      color: #d3ff87 !important;
-      
-  }
-
-  h1{
-      color: #ffff;
-      font-weight: 800 !important;
-      font-size: 5rem !important;
-
-  }
-  
-  /* Aligning items in main row */
+  cursor: pointer;
+}
 
  
-  
-  
-  /* Making the main image the size of the screen */
-  .aboutThirdlevel img {
 
-    border-radius: 3%; 
+.nav-link:hover {  
 
-   }
+  color: #e34399 !important;
 
-    h1{
-        cursor: pointer;
-    }
+  text-decoration: none;
 
-  h1:hover{
+  border-bottom: 2px solid #e34399;
 
-    text-decoration: none;
+  transition: 0.5s;
+}
 
-    color: #e34399 !important;
+.colornv{
+    color: #d3ff87 !important;
+}
 
-    transition: 0.5;
+/* Jumbotron*/
 
+.jumbotron{
+    background-image:url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1720&q=80");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 7rem;
+}
+
+.display-4{
+    font-weight: 600;
+    color: #d3ff87 !important;
+    
+}
+
+h1{
+    color: #ffff;
+    font-weight: 800 !important;
+    font-size: 5rem !important;
+
+}
+
+
+/* Making the main image the size of the screen */
+.aboutThirdlevel img {
+
+  border-radius: 3%; 
+
+ }
+
+  h1{
+      cursor: pointer;
   }
 
+h1:hover{
+
+  text-decoration: none;
+
+  color: #e34399 !important;
+
+  transition: 0.5;
+
+}
+
+
+/* About cards */
+
+
+
+.card {
+
+  border-color: #3f3e45;
+
+  border-bottom: 8px solid #d3ff87;
+
+  border-top: 8px solid #d3ff87;
+
+  width: 18rem;
+
+  border-radius: 5%;
+
+  cursor: pointer;
+
   
-  /* About cards */
+}
 
-  .about {
+.card-body{
 
-    background: #3f3e45;
+  color: white !important;
 
-    border-radius: 0.5rem;
-  }
-  
-  .card {
-
-    border-color: #3f3e45;
-
-    border-bottom: 8px solid #d3ff87;
-
-    border-top: 8px solid #d3ff87;
-
-    width: 18rem;
-
-    border-radius: 5%;
-
-    cursor: pointer;
+  background: #3f3e45 !important;
 
     
-  }
+}
 
-  .card-body{
+.card:hover{
+  width:20rem;
+  height:105%;
+  box-shadow:  10px 10px 16px #d3ff87;
+}
+
+.card-title:hover{
+
+  text-decoration: none;
+
+  color: #e34399 !important;
+
+  transition: 0.5;
+
+
+}
+
+.cuadrado:hover{
+  background-color: #d3ff87;
+}
+
+.shiny:hover{
+    background-color: #d3ff87 !important;
+}
+
+
+
+
+/* Social Media Section */
+
+
+.boton:hover{
+
+  color: #e34399 !important;
+  box-shadow: 10px 10px 16px #d3ff87 !important;
+  transition: 0.3 ease ;
+}
+
+.boton{
 
     color: white !important;
 
-    background: #3f3e45 !important;
+    border: 2px solid #d3ff87;
 
-      
-  }
+    border-radius: 3%;
 
-  .card:hover{
-    width:20rem;
-    height:105%;
-    box-shadow:  10px 10px 16px #d3ff87;
-  }
+    padding:  1rem 2rem !important;
 
-  .card-title:hover{
+    background-color: #3f3e45;
 
-    text-decoration: none;
+}
 
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+a:hover{
     color: #e34399 !important;
+    transition: 0.3;
+}
 
-    transition: 0.5;
 
 
-  }
 
-  .cuadrado:hover{
-    background-color: #d3ff87;
-  }
 
-  .shiny:hover{
-      background-color: #d3ff87 !important;
-  }
-  
- 
+footer{
 
-  
-  /* Social Media Section */
-  
+    background-color: #3f3e45;
 
-  .boton:hover{
+    height: 15vh;
+}
 
+.footprint:hover{
     color: #e34399 !important;
-    box-shadow: 10px 10px 16px #d3ff87 !important;
-    transition: 0.3 ease ;
+}
+
+
+@media (max-width:992px)
+{
+  .aboutSecondlevel{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
   }
-
-  .boton{
-
-      color: white !important;
-
-      border: 2px solid #d3ff87;
-
-      border-radius: 3%;
-
-      padding:  1rem 2rem !important;
-
-      background-color: #3f3e45;
-
-  }
-
-  a{
-      text-decoration: none !important;
-      color: white;
-  }
-
-  a:hover{
-      color: #e34399 !important;
-      transition: 0.3;
-  }
-
- 
-
-  
- 
-  footer{
-
-      background-color: #3f3e45;
-
-      height: 15vh;
-  }
-
-  .footprint:hover{
-      color: #e34399 !important;
-  }
-
   
 
-  
-
-   @media (max-width: 768px) { 
-      
-    
-    .contact{
-        display: flex !important;
-        flex-direction: column !important;
-    }
-    .social{
-        min-width: 60% !important;
-    }
-    
-    
+  .myself{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
   }
+
+}
+
+
+ @media (max-width: 768px) { 
+    
+  
+  .contact{
+      display: flex !important;
+      flex-direction: column !important;
+  }
+  .social{
+      min-width: 60% !important;
+  }
+  
+  
+}
