@@ -161,8 +161,12 @@
 
   }
 
+  .cuadrado:hover{
+    background-color: #d3ff87;
+  }
+
   .shiny:hover{
-      color: #e34399 !important;
+      background-color: #d3ff87 !important;
   }
   
  
@@ -222,11 +226,11 @@
   
 
    @media (max-width: 768px) { 
-
+      
     
     .contact{
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
     }
     .social{
         min-width: 60% !important;
