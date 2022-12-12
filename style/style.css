@@ -1,3 +1,5 @@
+
+ 
 /* Global Properties */
 
 body {
@@ -109,7 +111,9 @@ h1{
   }
 
   ul{
-    list-style: none !important;
+
+list-style: none !important;
+
   }
 
 h1:hover{
@@ -274,4 +278,4 @@ footer{
   
 
   
-}
+ }
