@@ -161,8 +161,12 @@
 
   }
 
+  .cuadrado:hover{
+    background-color: #d3ff87;
+  }
+
   .shiny:hover{
-      color: #e34399 !important;
+      background-color: #d3ff87 !important;
   }
   
  
