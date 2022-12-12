@@ -111,7 +111,9 @@ h1{
   }
 
   ul{
-    list-style: none;
+
+list-style: none !important;
+
   }
 
 h1:hover{
@@ -276,4 +278,4 @@ footer{
   
 
   
-}
+ }
