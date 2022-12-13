@@ -26,7 +26,9 @@ Includes a bacground image with a CTA presenting myself, section is responsive.
 
 Includes a picture of myself, a little introduction a UL with my future skills, section is responsive.
 
-<img width="1440" alt="Screenshot 2022-12-13 at 12 54 05" src="https://user-images.githubusercontent.com/26310201/207323507-bc9bf0e9-e7d4-408f-a9c2-19c5a7e3d73f.png">
+<img width="1440" alt="Screenshot 2022-12-13 at 13 05 37" src="https://user-images.githubusercontent.com/26310201/207325861-4b73a775-fc23-4160-9996-035f0331bb64.png">
+
+
 
 
 <ins> My Work </ins>
@@ -38,7 +40,7 @@ Includes six cards connected to Youtube via link, the card have hoover effects a
 
 <ins> Contact me </ins>
 
-Includes four buttons with links too social media, each button contains hoover effects and are responsive.
+Includes four buttons with links too social media, each button contains hoover effects and are responsive, also I add a details and summary tag on the list to make it slighty fancier.
 
 <img width="1440" alt="Screenshot 2022-12-13 at 12 55 23" src="https://user-images.githubusercontent.com/26310201/207323749-cdc321c2-6cc9-4568-831f-51d829e4e3b0.png">
 
