@@ -56,7 +56,7 @@ N/A
 
 ## HOW USE THE PROJECT
 
-Here i will simply link my future pojects with the anchor elements on the cards in the project section.
+Here I will link my future pojects with the anchor elements on the cards in the project section.
 
 ## ADD LICENSE
 
