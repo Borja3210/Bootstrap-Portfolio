@@ -18,7 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Navigation */
+/* Navigation bar with navburger in small screen device, the navburger is not operative as I didn't add JS (NOT REQUIRED), all link are connected to their sections and have a nice hover effect*/
 
 .navbar-nav{
 
@@ -62,7 +62,7 @@ body {
     color: #d3ff87 !important;
 }
 
-/* Jumbotron*/
+/* Jumbotron  with CTA presentation of myself*/
 
 .jumbotron{
 
@@ -94,7 +94,7 @@ h1{
 }
 
 
-/* About me */
+/* About me  with picture of myself, presentation and list of my future skills*/
 
 .aboutThirdlevel img {
  
@@ -127,7 +127,7 @@ h1:hover{
 }
 
 
-/* About cards */
+/* projects connected to a youtube video as I dont have any decent project at the moment, all cards have hover effects */
 
 .card {
 
@@ -183,7 +183,7 @@ h1:hover{
 
 
 
-/* Social Media Section */
+/* Social Media Section  linked to social media, due privacy reason I didnt connected to my real accounts except the mail that send you straight away to mailto, all boxes contains hover effects*/
 
 .boton:hover{
 
@@ -218,7 +218,7 @@ a:hover{
 
 
 
-/* footer area */
+/* footer area , Borja Development link connects to my mail and have hoover effects*/
 
 footer{
 
@@ -231,7 +231,7 @@ footer{
     color: #e34399 !important;
 }
 
-/* media queries */
+/* media queries  for tablets and cellphoones*/
 
 @media (max-width:992px)
 {
